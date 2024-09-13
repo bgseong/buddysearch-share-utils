@@ -1,6 +1,7 @@
 package com.adnj.buddysearchshareutils.enums.Converter;
 
-import com.adnj.mainserviceserver.enums.ApplyStatus;
+
+import com.adnj.buddysearchshareutils.enums.ApplyStatus;
 import jakarta.persistence.Converter;
 
 @Converter(autoApply = true)

@@ -1,6 +1,6 @@
 package com.adnj.buddysearchshareutils.enums.Converter;
 
-import com.adnj.mainserviceserver.enums.FreeDivingLevel;
+import com.adnj.buddysearchshareutils.enums.FreeDivingLevel;
 import jakarta.persistence.Converter;
 
 @Converter(autoApply = true)

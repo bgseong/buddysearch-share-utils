@@ -1,6 +1,6 @@
 package com.adnj.buddysearchshareutils.enums.Converter;
 
-import com.adnj.mainserviceserver.enums.SportType;
+import com.adnj.buddysearchshareutils.enums.SportType;
 import jakarta.persistence.Converter;
 
 @Converter(autoApply = true)

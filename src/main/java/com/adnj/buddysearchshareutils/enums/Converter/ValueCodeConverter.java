@@ -1,6 +1,6 @@
 package com.adnj.buddysearchshareutils.enums.Converter;
 
-import com.adnj.mainserviceserver.enums.ValueCode;
+import com.adnj.buddysearchshareutils.enums.ValueCode;
 import jakarta.persistence.AttributeConverter;
 
 import java.util.EnumSet;

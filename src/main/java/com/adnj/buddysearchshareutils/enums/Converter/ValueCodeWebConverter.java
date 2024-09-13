@@ -1,6 +1,6 @@
 package com.adnj.buddysearchshareutils.enums.Converter;
 
-import com.adnj.mainserviceserver.enums.ValueCode;
+import com.adnj.buddysearchshareutils.enums.ValueCode;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.convert.converter.ConverterFactory;
 import org.springframework.util.StringUtils;
