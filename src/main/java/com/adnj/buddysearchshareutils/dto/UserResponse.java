@@ -1,9 +1,6 @@
 package com.adnj.buddysearchshareutils.dto;
 
-import com.adnj.buddysearchshareutils.enums.ApplyStatus;
-import com.adnj.buddysearchshareutils.enums.ApplyType;
-import com.adnj.buddysearchshareutils.enums.FreeDivingLevel;
-import com.adnj.buddysearchshareutils.enums.SportType;
+import com.adnj.buddysearchshareutils.enums.*;
 import lombok.*;
 
 import java.util.List;
@@ -74,6 +71,22 @@ public class UserResponse {
         private String imgUrl;
         private SportType sportType;
         private String licenseType;
+
+    }
+
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Builder
+    @Setter
+    public static class AgreementDto{
+        private AgreementType agreement;
+
+        private Boolean isAgree;
+
+        private Long createAt;
+
+        private Long updateAt;
 
     }
 

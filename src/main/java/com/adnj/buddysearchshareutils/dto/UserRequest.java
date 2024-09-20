@@ -129,4 +129,14 @@ public class UserRequest {
 
         private String identifyId;
     }
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Builder
+    @Setter
+    public static class AgreementRequest{
+        private UUID agreementId;
+
+        private List<String> agreements;
+    }
 }
