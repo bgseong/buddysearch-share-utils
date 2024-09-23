@@ -143,6 +143,7 @@ public class UserRequest {
         @Setter
         @Getter
         @AllArgsConstructor
+        @NoArgsConstructor
         public static class Agreements{
             private AgreementType agreementType;
             private Boolean isAgree;
