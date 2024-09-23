@@ -1,5 +1,6 @@
 package com.adnj.buddysearchshareutils.dto;
 
+import com.adnj.buddysearchshareutils.enums.AgreementType;
 import com.adnj.buddysearchshareutils.enums.ApplyType;
 import com.adnj.buddysearchshareutils.enums.FreeDivingLevel;
 import com.adnj.buddysearchshareutils.enums.SportType;
@@ -135,8 +136,16 @@ public class UserRequest {
     @Builder
     @Setter
     public static class AgreementRequest{
-        private UUID agreementId;
+        private UUID userId;
 
-        private List<String> agreements;
+        private List<Agreements> agreements;
+
+        @Setter
+        @Getter
+        @AllArgsConstructor
+        public static class Agreements{
+            private AgreementType agreementType;
+            private Boolean isAgree;
+        }
     }
 }
