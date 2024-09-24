@@ -7,7 +7,8 @@ public enum ApplyStatus implements ValueCode{
     WAIT("대기중", 1),
     INPROCESSING("처리중", 2),
     COMPLETE("완료",3),
-    CANCEL("취소", 4);
+    CANCEL("취소", 4),
+    REFUSE("거절",5);
 
     @JsonValue
     private String value;
