@@ -83,6 +83,15 @@ public class UserRequest {
     @AllArgsConstructor
     @Builder
     @Setter
+    public static class RefuseInstructor{
+        private String refuseReason;
+    }
+
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Builder
+    @Setter
     public static class CreateApplyInstructor {
         private SportType sportType;
         private ApplyType applyType;
