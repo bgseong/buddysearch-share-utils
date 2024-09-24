@@ -97,6 +97,8 @@ public class SearchDto {
 
         private String introduction;
 
+        private Integer sex;
+
         private Integer age;
 
         private SportType sportType;
@@ -107,7 +109,7 @@ public class SearchDto {
 
         private List<String> personalHistory;
 
-        public InstructorProfileDto(UUID userId, Long instructorId, String name, String nickName, String region, String introduction, Integer age, SportType sportType, List<String> detailImgUrl, String detailIntroduction, List<String> personalHistory) {
+        public InstructorProfileDto(UUID userId, Long instructorId, String name, String nickName, String region, String introduction, Integer sex, Integer age, SportType sportType, List<String> detailImgUrl, String detailIntroduction, List<String> personalHistory) {
             this.userId = userId;
             this.instructorId = instructorId;
             this.name = name;
@@ -118,6 +120,7 @@ public class SearchDto {
                         .collect(Collectors.toList());
             }
             this.introduction = introduction;
+            this.sex = sex;
             this.age = age;
             this.sportType = sportType;
             this.detailImgUrl = detailImgUrl;
