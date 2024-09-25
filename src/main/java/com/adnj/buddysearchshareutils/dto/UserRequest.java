@@ -158,4 +158,15 @@ public class UserRequest {
             private Boolean isAgree;
         }
     }
+
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Builder
+    @Setter
+    public static class AgreementChangeRequest{
+        private UUID userId;
+
+        private AgreementType agreements;
+    }
 }
