@@ -10,6 +10,8 @@ import lombok.*;
 public class SendMessageDto<T> {
     private String roomId;
 
+    private String targetId;
+
     private T message;
 
     private String type;
