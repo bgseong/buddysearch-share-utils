@@ -39,6 +39,8 @@ public class AuthResponse {
 
         private List<UserResponse.LicenseDto> license;
 
+        private List<UserResponse.AgreementDto> agreements;
+
 
         @Getter
         @Setter
