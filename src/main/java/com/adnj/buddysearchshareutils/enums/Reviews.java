@@ -50,4 +50,13 @@ public enum Reviews implements ValueCodeScoreValue {
         return scoreValue;
     }
 
+    public static Reviews fromCode(int code) {
+        for (Reviews status : Reviews.values()) {
+            if (status.getCode() == code) {
+                return status;
+            }
+        }
+        throw new IllegalArgumentException("Invalid code: " + code);
+    }
+
 }
