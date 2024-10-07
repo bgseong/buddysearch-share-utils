@@ -32,6 +32,7 @@ public class AuthRequest {
         private Integer sex;
         private String birth;
         private String nickName;
+        private String code;
 
 
     }
