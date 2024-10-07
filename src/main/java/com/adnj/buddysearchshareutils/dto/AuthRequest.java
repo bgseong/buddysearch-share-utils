@@ -58,6 +58,8 @@ public class AuthRequest {
 
         @NotEmpty
         public String nickName;
+
+        public String code;
     }
 
     @Getter

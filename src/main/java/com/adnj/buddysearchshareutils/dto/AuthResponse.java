@@ -41,6 +41,8 @@ public class AuthResponse {
 
         private List<UserResponse.AgreementDto> agreements;
 
+        public String code;
+
 
         @Getter
         @Setter
