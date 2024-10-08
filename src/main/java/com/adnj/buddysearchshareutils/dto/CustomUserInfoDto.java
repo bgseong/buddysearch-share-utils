@@ -1,5 +1,6 @@
 package com.adnj.buddysearchshareutils.dto;
 
+import com.adnj.buddysearchshareutils.enums.UserStatus;
 import lombok.*;
 
 import java.util.UUID;
@@ -17,6 +18,7 @@ public class CustomUserInfoDto {
     private String email;
     private String role;
     private String imgUrl;
+    private UserStatus status;
 
 
 }

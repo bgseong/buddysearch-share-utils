@@ -2,9 +2,11 @@ package com.adnj.buddysearchshareutils.dto;
 
 
 import jakarta.annotation.Nullable;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,6 +25,7 @@ public class AuthRequest {
         private String email;
 
         @Nullable
+        //@Pattern(regexp = "^(?=.*[A-Za-z])(?=.*[\\d!@#$%^&*()_+\\-=\\[\\]{};:\\\\|,.<>\\/?]).{8,}$")
         private String password;
 
         @NotEmpty
