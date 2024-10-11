@@ -16,7 +16,7 @@ public class ValueCodeConverter<E extends Enum<E> & ValueCode> implements Attrib
     @Override
     public E convertToEntityAttribute(Integer s) {
         return EnumSet.allOf(clz).stream()
-                .filter(e -> e.getCode() == s)
+                .filter(e -> e.getCode().equals(s))
                 .findAny()
                 .orElseThrow(()->new NoSuchElementException());
     }
