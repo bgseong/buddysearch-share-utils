@@ -3,6 +3,7 @@ package com.adnj.buddysearchshareutils.dto;
 
 import com.adnj.buddysearchshareutils.enums.SportType;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Arrays;
@@ -14,6 +15,7 @@ public class SearchDto {
 
     @Getter
     @Setter
+    @NoArgsConstructor
     public static class ProfileDto {
         private UUID userId;
 
