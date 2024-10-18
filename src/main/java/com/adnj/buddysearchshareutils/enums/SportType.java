@@ -11,7 +11,7 @@ public enum SportType implements ValueCode {
   //  @JsonProperty("스쿠버다이빙")
     SCUBADIVING("스쿠버다이빙",2),
  //   @JsonProperty("해루질스킨")
-    HARUJILSKIN( "해루질 스킨",3),
+    HARUJILSKIN( "해루질스킨",3),
  //   @JsonProperty("머메이드")
     MERMAID("머메이드",4);
 
