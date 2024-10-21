@@ -29,6 +29,8 @@ public class SearchDto {
 
         private Integer sex;
 
+        private Float score;
+
         private Integer age;
 
         private String birth;
@@ -55,10 +57,11 @@ public class SearchDto {
 
         private Boolean isBlind;
 
-        public ProfileDto(UUID userId, String imgUrl, String name, String nickName, Integer sex, Integer age, String birth, String role, String region, List<SportType> sportType, List<UserResponse.LevelDto> level, String introduction, List<String> detailImgUrl, String detailIntroduction, Boolean isCardUse, Long createAt, Long updateAt, Boolean isBlind ) {
+        public ProfileDto(UUID userId, String imgUrl, String name, String nickName, Integer sex, Integer age, Float score, String birth, String role, String region, List<SportType> sportType, List<UserResponse.LevelDto> level, String introduction, List<String> detailImgUrl, String detailIntroduction, Boolean isCardUse, Long createAt, Long updateAt, Boolean isBlind ) {
             this.userId = userId;
             this.imgUrl = imgUrl;
             this.name = name;
+            this.score = score;
             this.nickName = nickName;
             this.sex = sex;
             this.age = age;

@@ -59,6 +59,8 @@ public class AuthResponse {
 
             private String birth;
 
+            private Float score;
+
             private String role;
 
             private List<String> region;
@@ -82,10 +84,11 @@ public class AuthResponse {
             private Long updateAt;
 
             private Boolean isBlind;
-            public ProfileDto(String imgUrl, String name, String nickName, Integer sex, Integer age, String birth, String role, String region, List<SportType> sportType, List<UserResponse.LevelDto> level, String introduction, List<String> detailImgUrl, String detailIntroduction, Boolean isCardUse, Long createAt, Long updateAt, Boolean isBlind) {
+            public ProfileDto(String imgUrl, String name, String nickName, Integer sex, Integer age, String birth, Float score, String role, String region, List<SportType> sportType, List<UserResponse.LevelDto> level, String introduction, List<String> detailImgUrl, String detailIntroduction, Boolean isCardUse, Long createAt, Long updateAt, Boolean isBlind) {
                 this.imgUrl = imgUrl;
                 this.name = name;
                 this.nickName = nickName;
+                this.score = score;
                 this.sex = sex;
                 this.age = age;
                 this.birth = birth;
