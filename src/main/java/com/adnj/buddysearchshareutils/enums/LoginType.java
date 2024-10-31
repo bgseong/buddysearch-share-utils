@@ -5,6 +5,7 @@ public enum LoginType {
     KAKAO(2,"Kakao"),
     NAVER(3,"Naver"),
     GOOGLE(4,"Google"),
+    APPLE(5,"Apple")
 
     ;
 
