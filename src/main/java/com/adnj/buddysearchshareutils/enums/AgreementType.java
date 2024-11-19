@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 public enum AgreementType implements ValueCode{
     PERSONALINFORMATION("개인정보 처리방침", 1),
     TERMS_AND_CONDITIONS("서비스 이용 약관", 2),
-    CONSENT_TO_USE_MARKETING("마케팅 활용 동의",3);
+    CONSENT_TO_USE_MARKETING("마케팅 활용",3);
 
     @JsonValue
     private String value;
