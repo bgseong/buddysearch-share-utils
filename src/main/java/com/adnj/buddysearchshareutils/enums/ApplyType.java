@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum ApplyType implements ValueCode {
     NEW("신규등록", 1),
-    RENEWAL("갱신", 2);
+    RENEWAL("갱신신청", 2);
 
     @JsonValue
     private String value;
